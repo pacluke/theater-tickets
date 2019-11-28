@@ -10,7 +10,7 @@ import Foundation
 
 struct Ticket {
     private var price: Float
-//    private var priceWithDiscount: Float
+    private var priceWithDiscount: Float
     private var client: Client
     private var weekday: Weekday
     
@@ -18,6 +18,8 @@ struct Ticket {
         self.price = price
         self.client = client
         self.weekday = weekday
+        
+        self.priceWithDiscount = price
     }
     
     func getClient() -> Client {
