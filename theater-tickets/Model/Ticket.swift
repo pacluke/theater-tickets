@@ -34,4 +34,8 @@ struct Ticket {
         return self.price
     }
     
+    func getPriceWithDiscount() -> Float {
+        return self.priceWithDiscount
+    }
+    
 }
