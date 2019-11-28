@@ -19,11 +19,11 @@ struct Ticket {
         self.weekday = weekday
     }
     
-    private func getClient() -> Client {
+    func getClient() -> Client {
         return self.client
     }
     
-    private func getWeekday() -> Weekday {
+    func getWeekday() -> Weekday {
         return self.weekday
     }
     
