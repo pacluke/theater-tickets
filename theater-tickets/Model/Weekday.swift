@@ -16,4 +16,5 @@ enum Weekday {
     case Thursday
     case Friday
     case Saturday
+    case Holiday
 }
