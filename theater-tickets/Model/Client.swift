@@ -9,7 +9,8 @@
 import Foundation
 
 enum Client {
+    case Elder
     case Kid
     case Student
-    case Elder
+    case ConfirmedStudent
 }
