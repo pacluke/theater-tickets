@@ -18,6 +18,7 @@
 		C11B8D09238F59E20028755C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D08238F59E20028755C /* Client.swift */; };
 		C11B8D0B238F5CA30028755C /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0A238F5CA30028755C /* Weekday.swift */; };
 		C11B8D0D238F5DC40028755C /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0C238F5DC40028755C /* Ticket.swift */; };
+		C11B8D102390A1A10028755C /* TicketProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0F2390A1A10028755C /* TicketProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C11B8D08238F59E20028755C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		C11B8D0A238F5CA30028755C /* Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
 		C11B8D0C238F5DC40028755C /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		C11B8D0F2390A1A10028755C /* TicketProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				C11B8D07238F534F0028755C /* Storyboard */,
 				C11B8D06238F52480028755C /* Model */,
+				C11B8D0E2390A1650028755C /* Protocol */,
 				C11B8D05238F52370028755C /* ViewModel */,
 				C11B8D04238F522E0028755C /* View */,
 				C11B8D03238F52090028755C /* Supporting Files */,
@@ -175,6 +178,14 @@
 				C11B8CDE238F51CE0028755C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C11B8D0E2390A1650028755C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C11B8D0F2390A1A10028755C /* TicketProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11B8D102390A1A10028755C /* TicketProtocol.swift in Sources */,
 				C11B8CD8238F51CB0028755C /* ViewController.swift in Sources */,
 				C11B8D0D238F5DC40028755C /* Ticket.swift in Sources */,
 				C11B8D0B238F5CA30028755C /* Weekday.swift in Sources */,
