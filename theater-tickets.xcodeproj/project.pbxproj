@@ -17,7 +17,6 @@
 		C11B8CF6238F51CF0028755C /* theater_ticketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8CF5238F51CF0028755C /* theater_ticketsUITests.swift */; };
 		C11B8D09238F59E20028755C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D08238F59E20028755C /* Client.swift */; };
 		C11B8D0B238F5CA30028755C /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0A238F5CA30028755C /* Weekday.swift */; };
-		C11B8D0D238F5DC40028755C /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0C238F5DC40028755C /* Ticket.swift */; };
 		C11B8D102390A1A10028755C /* TicketProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0F2390A1A10028755C /* TicketProtocol.swift */; };
 		C11B8D132390A9FC0028755C /* KidTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D122390A9FC0028755C /* KidTicket.swift */; };
 		C11B8D152390AFE10028755C /* ElderTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D142390AFE10028755C /* ElderTicket.swift */; };
@@ -59,7 +58,6 @@
 		C11B8CF7238F51CF0028755C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C11B8D08238F59E20028755C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		C11B8D0A238F5CA30028755C /* Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
-		C11B8D0C238F5DC40028755C /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		C11B8D0F2390A1A10028755C /* TicketProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketProtocol.swift; sourceTree = "<group>"; };
 		C11B8D122390A9FC0028755C /* KidTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidTicket.swift; sourceTree = "<group>"; };
 		C11B8D142390AFE10028755C /* ElderTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderTicket.swift; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 				C11B8D112390A9D30028755C /* Ticket */,
 				C11B8D08238F59E20028755C /* Client.swift */,
 				C11B8D0A238F5CA30028755C /* Weekday.swift */,
-				C11B8D0C238F5DC40028755C /* Ticket.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -341,7 +338,6 @@
 			files = (
 				C11B8D102390A1A10028755C /* TicketProtocol.swift in Sources */,
 				C11B8CD8238F51CB0028755C /* ViewController.swift in Sources */,
-				C11B8D0D238F5DC40028755C /* Ticket.swift in Sources */,
 				C11B8D0B238F5CA30028755C /* Weekday.swift in Sources */,
 				C11B8CD4238F51CB0028755C /* AppDelegate.swift in Sources */,
 				C11B8D192390B07C0028755C /* ConfirmedStudentTicket.swift in Sources */,
