@@ -38,11 +38,10 @@ class theater_ticketsTests: XCTestCase {
         let studentTicket: StudentTicket = StudentTicket(price: studentTicketPrice!, weekday: currentDay)
         let confirmedStudentTicket: ConfirmedStudentTicket = ConfirmedStudentTicket(price: studentTicketPrice!, weekday: currentDay)
         
-        XCTAssertTrue(kidTicket.priceWithDiscount == (kidTicketPrice! - (kidTicketPrice! * 0.10)))
-        XCTAssertTrue(elderTicket.priceWithDiscount == (elderTicketPrice! - (elderTicketPrice! * 0.10)))
-        XCTAssertTrue(studentTicket.priceWithDiscount == (studentTicketPrice! - (studentTicketPrice! * 0.10)))
-        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == (studentTicketPrice! - (studentTicketPrice! * 0.35)))
-        
+        XCTAssertTrue(kidTicket.priceWithDiscount == 4.95)
+        XCTAssertTrue(elderTicket.priceWithDiscount == 5.40)
+        XCTAssertTrue(studentTicket.priceWithDiscount == 7.20)
+        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == 5.20)
     }
     
     func testTuesdayTickets() {
@@ -53,11 +52,10 @@ class theater_ticketsTests: XCTestCase {
         let studentTicket: StudentTicket = StudentTicket(price: studentTicketPrice!, weekday: currentDay)
         let confirmedStudentTicket: ConfirmedStudentTicket = ConfirmedStudentTicket(price: studentTicketPrice!, weekday: currentDay)
         
-        XCTAssertTrue(kidTicket.priceWithDiscount == (kidTicketPrice! - (kidTicketPrice! * 0.15)))
-        XCTAssertTrue(elderTicket.priceWithDiscount == (elderTicketPrice! - (elderTicketPrice! * 0.15)))
-        XCTAssertTrue(studentTicket.priceWithDiscount == (studentTicketPrice! - (studentTicketPrice! * 0.05)))
-        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == (studentTicketPrice! - (studentTicketPrice! * 0.35)))
-        
+        XCTAssertTrue(kidTicket.priceWithDiscount == 4.675)
+        XCTAssertTrue(elderTicket.priceWithDiscount == 5.10)
+        XCTAssertTrue(studentTicket.priceWithDiscount == 7.60)
+        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == 5.20)
     }
     
     func testWednesdayTickets() {
@@ -68,11 +66,10 @@ class theater_ticketsTests: XCTestCase {
         let studentTicket: StudentTicket = StudentTicket(price: studentTicketPrice!, weekday: currentDay)
         let confirmedStudentTicket: ConfirmedStudentTicket = ConfirmedStudentTicket(price: studentTicketPrice!, weekday: currentDay)
         
-        XCTAssertTrue(kidTicket.priceWithDiscount == (kidTicketPrice! - (kidTicketPrice! * 0.30)))
-        XCTAssertTrue(elderTicket.priceWithDiscount == (elderTicketPrice! - (elderTicketPrice! * 0.40)))
-        XCTAssertTrue(studentTicket.priceWithDiscount == (studentTicketPrice! - (studentTicketPrice! * 0.50)))
-        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == (studentTicketPrice! - (studentTicketPrice! * 0.35)))
-        
+        XCTAssertTrue(kidTicket.priceWithDiscount == 3.85)
+        XCTAssertTrue(elderTicket.priceWithDiscount == 3.60)
+        XCTAssertTrue(studentTicket.priceWithDiscount == 4.00)
+        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == 5.20)
     }
     
     func testThursdayTickets() {
@@ -83,11 +80,10 @@ class theater_ticketsTests: XCTestCase {
         let studentTicket: StudentTicket = StudentTicket(price: studentTicketPrice!, weekday: currentDay)
         let confirmedStudentTicket: ConfirmedStudentTicket = ConfirmedStudentTicket(price: studentTicketPrice!, weekday: currentDay)
         
-        XCTAssertTrue(kidTicket.priceWithDiscount == (kidTicketPrice!))
-        XCTAssertTrue(elderTicket.priceWithDiscount == (elderTicketPrice! - (elderTicketPrice! * 0.30)))
-        XCTAssertTrue(studentTicket.priceWithDiscount == (studentTicketPrice! - (studentTicketPrice! * 0.30)))
-        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == (studentTicketPrice! - (studentTicketPrice! * 0.35)))
-        
+        XCTAssertTrue(kidTicket.priceWithDiscount == 5.50)
+        XCTAssertTrue(elderTicket.priceWithDiscount == 4.20)
+        XCTAssertTrue(studentTicket.priceWithDiscount == 5.60)
+        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == 5.20)
     }
     
     func testFridayTickets() {
@@ -98,11 +94,10 @@ class theater_ticketsTests: XCTestCase {
         let studentTicket: StudentTicket = StudentTicket(price: studentTicketPrice!, weekday: currentDay)
         let confirmedStudentTicket: ConfirmedStudentTicket = ConfirmedStudentTicket(price: studentTicketPrice!, weekday: currentDay)
         
-        XCTAssertTrue(kidTicket.priceWithDiscount == (kidTicketPrice! - (kidTicketPrice! * 0.11)))
-        XCTAssertTrue(elderTicket.priceWithDiscount == (elderTicketPrice!))
-        XCTAssertTrue(studentTicket.priceWithDiscount == (studentTicketPrice!))
-        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == (studentTicketPrice!))
-        
+        XCTAssertTrue(kidTicket.priceWithDiscount == 4.895)
+        XCTAssertTrue(elderTicket.priceWithDiscount == 6.00)
+        XCTAssertTrue(studentTicket.priceWithDiscount == 8.00)
+        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == 8.00)
     }
     
     func testSaturdayTickets() {
@@ -113,11 +108,10 @@ class theater_ticketsTests: XCTestCase {
         let studentTicket: StudentTicket = StudentTicket(price: studentTicketPrice!, weekday: currentDay)
         let confirmedStudentTicket: ConfirmedStudentTicket = ConfirmedStudentTicket(price: studentTicketPrice!, weekday: currentDay)
         
-        XCTAssertTrue(kidTicket.priceWithDiscount == (kidTicketPrice!))
-        XCTAssertTrue(elderTicket.priceWithDiscount == (elderTicketPrice! - (elderTicketPrice! * 0.05)))
-        XCTAssertTrue(studentTicket.priceWithDiscount == (studentTicketPrice!))
-        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == (studentTicketPrice!))
-        
+        XCTAssertTrue(kidTicket.priceWithDiscount == 5.50)
+        XCTAssertTrue(elderTicket.priceWithDiscount == 5.70)
+        XCTAssertTrue(studentTicket.priceWithDiscount == 8.00)
+        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == 8.00)
     }
     
     func testSundayTickets() {
@@ -128,11 +122,10 @@ class theater_ticketsTests: XCTestCase {
         let studentTicket: StudentTicket = StudentTicket(price: studentTicketPrice!, weekday: currentDay)
         let confirmedStudentTicket: ConfirmedStudentTicket = ConfirmedStudentTicket(price: studentTicketPrice!, weekday: currentDay)
         
-        XCTAssertTrue(kidTicket.priceWithDiscount == (kidTicketPrice!))
-        XCTAssertTrue(elderTicket.priceWithDiscount == (elderTicketPrice! - (elderTicketPrice! * 0.05)))
-        XCTAssertTrue(studentTicket.priceWithDiscount == (studentTicketPrice!))
-        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == (studentTicketPrice!))
-        
+        XCTAssertTrue(kidTicket.priceWithDiscount == 5.50)
+        XCTAssertTrue(elderTicket.priceWithDiscount == 5.70)
+        XCTAssertTrue(studentTicket.priceWithDiscount == 8.00)
+        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == 8.00)
     }
     
     func testHolidayTickets() {
@@ -143,11 +136,10 @@ class theater_ticketsTests: XCTestCase {
         let studentTicket: StudentTicket = StudentTicket(price: studentTicketPrice!, weekday: currentDay)
         let confirmedStudentTicket: ConfirmedStudentTicket = ConfirmedStudentTicket(price: studentTicketPrice!, weekday: currentDay)
         
-        XCTAssertTrue(kidTicket.priceWithDiscount == (kidTicketPrice!))
-        XCTAssertTrue(elderTicket.priceWithDiscount == (elderTicketPrice! - (elderTicketPrice! * 0.05)))
-        XCTAssertTrue(studentTicket.priceWithDiscount == (studentTicketPrice!))
-        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == (studentTicketPrice!))
-        
+        XCTAssertTrue(kidTicket.priceWithDiscount == 5.50)
+        XCTAssertTrue(elderTicket.priceWithDiscount == 5.70)
+        XCTAssertTrue(studentTicket.priceWithDiscount == 8.00)
+        XCTAssertTrue(confirmedStudentTicket.priceWithDiscount == 8.00)
     }
     
     
