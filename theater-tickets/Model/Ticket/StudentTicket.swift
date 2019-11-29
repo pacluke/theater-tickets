@@ -23,22 +23,16 @@ struct StudentTicket: TicketProtocol {
     
     func getDiscount(weekday: Weekday) -> Float {
         switch weekday {
-        case .Sunday:
+        case .Sunday, .Saturday, .Friday, .Holiday:
             return 0.0
         case .Monday:
-            return 0.0
+            return 0.10
         case .Tuesday:
-            return 0.0
+            return 0.05
         case .Wednesday:
-            return 0.0
+            return 0.50
         case .Thursday:
-            return 0.0
-        case .Friday:
-            return 0.0
-        case .Saturday:
-            return 0.0
-        case .Holiday:
-            return 0.0
+            return 0.30
         }
     }
 }
