@@ -1,5 +1,5 @@
 //
-//  KidTicket.swift
+//  ElderTicket.swift
 //  theater-tickets
 //
 //  Created by Lucas Flores on 28/11/19.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct KidTicket: TicketProtocol {
+struct ElderTicket: TicketProtocol {
     var price: Float
     var priceWithDiscount: Float!
     var client: Client
@@ -17,7 +17,7 @@ struct KidTicket: TicketProtocol {
     init(price: Float, weekday: Weekday) {
         self.price = price
         self.weekday = weekday
-        self.client = .Kid
+        self.client = .Elder
         self.priceWithDiscount = price - (getDiscount(weekday: weekday) * price)
     }
     
