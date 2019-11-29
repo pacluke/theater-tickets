@@ -21,6 +21,7 @@
 		C11B8D102390A1A10028755C /* TicketProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0F2390A1A10028755C /* TicketProtocol.swift */; };
 		C11B8D132390A9FC0028755C /* KidTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D122390A9FC0028755C /* KidTicket.swift */; };
 		C11B8D152390AFE10028755C /* ElderTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D142390AFE10028755C /* ElderTicket.swift */; };
+		C11B8D172390B03C0028755C /* StudentTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D162390B03C0028755C /* StudentTicket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		C11B8D0F2390A1A10028755C /* TicketProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketProtocol.swift; sourceTree = "<group>"; };
 		C11B8D122390A9FC0028755C /* KidTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidTicket.swift; sourceTree = "<group>"; };
 		C11B8D142390AFE10028755C /* ElderTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderTicket.swift; sourceTree = "<group>"; };
+		C11B8D162390B03C0028755C /* StudentTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTicket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 			children = (
 				C11B8D122390A9FC0028755C /* KidTicket.swift */,
 				C11B8D142390AFE10028755C /* ElderTicket.swift */,
+				C11B8D162390B03C0028755C /* StudentTicket.swift */,
 			);
 			path = Ticket;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				C11B8CD4238F51CB0028755C /* AppDelegate.swift in Sources */,
 				C11B8D152390AFE10028755C /* ElderTicket.swift in Sources */,
 				C11B8D09238F59E20028755C /* Client.swift in Sources */,
+				C11B8D172390B03C0028755C /* StudentTicket.swift in Sources */,
 				C11B8D132390A9FC0028755C /* KidTicket.swift in Sources */,
 				C11B8CD6238F51CB0028755C /* SceneDelegate.swift in Sources */,
 			);
