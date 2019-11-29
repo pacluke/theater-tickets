@@ -23,9 +23,9 @@ struct ConfirmedStudentTicket: TicketProtocol {
     
     func getDiscount(weekday: Weekday) -> Float {
         switch weekday {
-        case .Sunday, .Saturday, .Friday:
+        case .Sunday, .Saturday, .Friday, .Holiday:
             return 0.0
-        case .Monday, .Tuesday, .Wednesday, .Thursday, .Holiday:
+        case .Monday, .Tuesday, .Wednesday, .Thursday:
             return 0.35
         }
     }

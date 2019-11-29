@@ -28,7 +28,7 @@ struct KidTicket: TicketProtocol {
         case .Monday:
             return 0.10
         case .Tuesday:
-            return 0.25
+            return 0.15
         case .Wednesday:
             return 0.30
         case .Friday:
