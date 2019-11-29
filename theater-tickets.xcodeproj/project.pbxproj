@@ -19,6 +19,7 @@
 		C11B8D0B238F5CA30028755C /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0A238F5CA30028755C /* Weekday.swift */; };
 		C11B8D0D238F5DC40028755C /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0C238F5DC40028755C /* Ticket.swift */; };
 		C11B8D102390A1A10028755C /* TicketProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D0F2390A1A10028755C /* TicketProtocol.swift */; };
+		C11B8D132390A9FC0028755C /* KidTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B8D122390A9FC0028755C /* KidTicket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C11B8D0A238F5CA30028755C /* Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
 		C11B8D0C238F5DC40028755C /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		C11B8D0F2390A1A10028755C /* TicketProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketProtocol.swift; sourceTree = "<group>"; };
+		C11B8D122390A9FC0028755C /* KidTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidTicket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 		C11B8D06238F52480028755C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C11B8D112390A9D30028755C /* Ticket */,
 				C11B8D08238F59E20028755C /* Client.swift */,
 				C11B8D0A238F5CA30028755C /* Weekday.swift */,
 				C11B8D0C238F5DC40028755C /* Ticket.swift */,
@@ -186,6 +189,14 @@
 				C11B8D0F2390A1A10028755C /* TicketProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C11B8D112390A9D30028755C /* Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				C11B8D122390A9FC0028755C /* KidTicket.swift */,
+			);
+			path = Ticket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +336,7 @@
 				C11B8D0B238F5CA30028755C /* Weekday.swift in Sources */,
 				C11B8CD4238F51CB0028755C /* AppDelegate.swift in Sources */,
 				C11B8D09238F59E20028755C /* Client.swift in Sources */,
+				C11B8D132390A9FC0028755C /* KidTicket.swift in Sources */,
 				C11B8CD6238F51CB0028755C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
